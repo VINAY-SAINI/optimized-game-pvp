@@ -3,7 +3,13 @@ using System.Runtime.ConstrainedExecution;
 
 namespace pvp1
 {
+    public enum ChoosenPlayer
+    {
+        UnderTaker,
+        JohnCena,
+        BrockLesnar
 
+    }
     class Player
     {
         protected string _name;
@@ -64,7 +70,7 @@ namespace pvp1
     }
     class BrockLesnar : Player
     {
-        public BrockLesnar() : base(name: "Brock Lesnar", health: 100, maxHealth: 100, minHeal: 15, maxHeal: 25, minDamge: 20, maxDamage: 25)
+        public BrockLesnar() : base(name: "BrockLesnar", health: 100, maxHealth: 100, minHeal: 15, maxHeal: 25, minDamge: 20, maxDamage: 25)
         {
 
         }
@@ -73,10 +79,11 @@ namespace pvp1
             int randomDamage = new Random().Next(this._minDamage, this._maxDamage + 1);
             target.Health -= randomDamage;
             Console.WriteLine($"{this._name} attacked {target.Name}. Health of {target.Name}: {target.Health}");
-            if (target.GetType() == typeof(UnderTaker))
+            if (target.Name == ChoosenPlayer.UnderTaker.ToString())
             {
                 target.Health += UnderTaker.DamageAvoid;
             }
+
             if (target.Health <= 0)
             {
                 Console.WriteLine($"{this._name} wins!");
@@ -85,7 +92,7 @@ namespace pvp1
     }
     class JohnCena : Player
     {
-        public JohnCena() : base(name: "John Cena", health: 70, maxHealth: 100, minHeal: 20, maxHeal: 30, minDamge: 25, maxDamage: 35)
+        public JohnCena() : base(name: "JohnCena", health: 70, maxHealth: 100, minHeal: 20, maxHeal: 30, minDamge: 25, maxDamage: 35)
         {
 
         }
@@ -94,10 +101,11 @@ namespace pvp1
             int randomDamage = new Random().Next(this._minDamage, this._maxDamage + 1);
             target.Health -= randomDamage;
             Console.WriteLine($"{this._name} attacked {target.Name}. Health of {target.Name}: {target.Health}");
-            if (target.GetType() == typeof(UnderTaker))
+            if (target.Name == ChoosenPlayer.UnderTaker.ToString())
             {
                 target.Health += UnderTaker.DamageAvoid;
             }
+
             if (target.Health <= 0)
             {
                 Console.WriteLine($"{this._name} wins!");
