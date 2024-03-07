@@ -1,0 +1,14 @@
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\bin\Debug\net8.0\task 1 optimization game pvp.exe
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\bin\Debug\net8.0\task 1 optimization game pvp.deps.json
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\bin\Debug\net8.0\task 1 optimization game pvp.runtimeconfig.json
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\bin\Debug\net8.0\task 1 optimization game pvp.dll
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\bin\Debug\net8.0\task 1 optimization game pvp.pdb
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\obj\Debug\net8.0\task 1 optimization game pvp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\obj\Debug\net8.0\task 1 optimization game pvp.AssemblyInfoInputs.cache
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\obj\Debug\net8.0\task 1 optimization game pvp.AssemblyInfo.cs
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\obj\Debug\net8.0\task 1 optimization game pvp.csproj.CoreCompileInputs.cache
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\obj\Debug\net8.0\task 1 optimization game pvp.dll
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\obj\Debug\net8.0\refint\task 1 optimization game pvp.dll
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\obj\Debug\net8.0\task 1 optimization game pvp.pdb
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\obj\Debug\net8.0\task 1 optimization game pvp.genruntimeconfig.cache
+C:\Users\nidhi\Desktop\task 1 optimization game pvp\obj\Debug\net8.0\ref\task 1 optimization game pvp.dll
